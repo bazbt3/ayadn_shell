@@ -18,7 +18,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 ## Next steps:
 
-1. If you haven't already used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to aithenticate and interact with the App.net servers.
+1. If you haven't already used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
 2. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
 3. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
@@ -56,21 +56,23 @@ Finally!
 
 The menu is pretty simple:
 
-   AYADN MENU
+AYADN MENU
    
-   1 - ayadn write
-   
-   2 - ayadn reply
-   
-   3 - ayadn pm [channel/alias]
-   
-   4 - ayadn convo [post number]
-   
-   5 - ayadn repost [post number]
-   
-   9 - next window
-   
-   0 - Exit session
+1 - ayadn write
+
+2 - ayadn reply
+
+3 - ayadn pm [channel/alias]
+
+4 - ayadn convo [post number]
+
+5 - ayadn repost [post number]
+
+9 - next window
+
+0 - Exit session
+
+'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
 
 ### Disclaimer:
 
