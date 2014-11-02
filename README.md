@@ -24,6 +24,8 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 **Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system. There will be a more elegant method but I'd rather get things moving before making things pretty.
 
+**Even more important** - I've used bazbt3 (my App.net username) within the shell script. Though your account will authenticate you, you might not want to see, e.g. my mentions in your timelines!
+
 ## To run Ayadn using the menu system:
 
 1. It's best if the Terminal window is made fullscreen and with a fairly small font size.
