@@ -1,6 +1,6 @@
 ### This is NOT a clone of Ayadn!
 
-I'm messing about with stuff related to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
+I'm messing about with stuff *related* to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
 # A Linux Terminal window command line menu for Ayadn:
 
@@ -20,10 +20,9 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 1. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
 2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
+3. If you haven't previously used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
 **Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
-
-3. If you haven't previously used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
 ## To run Ayadn using the menu system:
 
@@ -56,23 +55,21 @@ Finally!
 
 The menu is pretty simple:
 
+```
 AYADN MENU
-   
-```1 - ayadn write
-
+1 - ayadn write
 2 - ayadn reply
-
 3 - ayadn pm [channel/alias]
-
 4 - ayadn convo [post number]
-
 5 - ayadn repost [post number]
 
 9 - next window
 
-0 - Exit session```
+0 - Exit session
+```
 
-'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
+1. 'next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
+2. 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
 
 ### Disclaimer:
 
