@@ -1,4 +1,4 @@
-### This is NOT a clone of Ayadn!
+### This is NOT a clone of Ayadn.
 
 I'm messing about with stuff *related* to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
@@ -35,25 +35,22 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 1. A green Tmux status bar at the bottom of the screen shows the window names and indicates which is currently active.
 2. The window panes are split variously dependent on function:
+
    Top left at all times is the menu.
-   Main:
-     Bottom-left  = mentions
-     Top-right    = unread PMs or channel posts
-     Bottom-right = interactions        
-   Mentions:
-     Right        = mentions
-   Messages:
-     Right        = unread messages/channel posts
-   Timeline:
-     Right        = auto-scrolling timeline
-   Multipurpose:
-     Right        = for the myriad of Ayadn commands not catered for in the menu.
+
+   Main: Bottom-left = mentions | Top-right = unread PMs or channel posts | Bottom-right = interactions        
+
+   Mentions: Right = mentions
+
+   Messages: Right = unread messages/channel posts
+
+   Timeline: Right = auto-scrolling timeline
+
+   Multipurpose: Right = command line for the myriad of Ayadn commands not catered for in the menu. (Type `ayadn` for a complete list.)
 
 ## The menu:
 
-Finally!
-
-The menu is pretty simple:
+Finally! The menu is pretty simple:
 
 ```
 AYADN MENU
