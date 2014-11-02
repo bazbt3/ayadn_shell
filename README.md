@@ -1,4 +1,4 @@
-### This is NOT a clone of Ayadn.
+**This is NOT a clone of Ayadn.**
 
 I'm messing about with stuff *related* to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
@@ -22,7 +22,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
 3. If you haven't previously used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
-**Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
+**Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system. There will be a more elegant method but I'd rather get things moving before making things pretty.
 
 ## To run Ayadn using the menu system:
 
