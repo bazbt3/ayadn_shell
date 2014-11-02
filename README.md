@@ -18,12 +18,12 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 ## Next steps:
 
-1. If you haven't already used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
+1. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
+2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
 
-2. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
-3. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
+**Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
 
-**Important** - `~/Documents` is used throughout simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
+3. If you haven't previously used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
 ## To run Ayadn using the menu system:
 
@@ -58,7 +58,7 @@ The menu is pretty simple:
 
 AYADN MENU
    
-1 - ayadn write
+```1 - ayadn write
 
 2 - ayadn reply
 
@@ -70,7 +70,7 @@ AYADN MENU
 
 9 - next window
 
-0 - Exit session
+0 - Exit session```
 
 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
 
