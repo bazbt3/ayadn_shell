@@ -1,15 +1,12 @@
-## This is NOT a clone of Ayadn
+### This is NOT a clone of Ayadn!
 
-I'm messing about with stuff related to Ayadn - the App.net command line client.  That's all.
+I'm messing about with stuff related to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
-If you want see the thing itself, go to:
-https://github.com/ericdke/na
-
-IF you want to read about my stuff, read on:
-
-# A menu for Ayadn
+# A Linux Terminal window command line menu for Ayadn:
 
 Treat as very alpha. Actually, treat it as a bit rubbish. Better.
+
+(I don't have a Mac but it *may* work on one.)
 
 ## Prerequisites:
 
@@ -52,6 +49,28 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
      Right        = auto-scrolling timeline
    Multipurpose:
      Right        = for the myriad of Ayadn commands not catered for in the menu.
+
+## The menu:
+
+Finally!
+
+The menu is pretty simple:
+
+   AYADN MENU
+   
+   1 - ayadn write
+   
+   2 - ayadn reply
+   
+   3 - ayadn pm [channel/alias]
+   
+   4 - ayadn convo [post number]
+   
+   5 - ayadn repost [post number]
+   
+   9 - next window
+   
+   0 - Exit session
 
 ### Disclaimer:
 
