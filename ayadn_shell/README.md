@@ -15,7 +15,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 1. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
 2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
 
-**Important** - `~/Documents` is used simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
+**Important** - `~/Documents` is used throughout simply because I'm very new to Linux, consequently have few *actual* documents on my test system.
 
 ## To run Ayadn using the menu system:
 
