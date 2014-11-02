@@ -27,7 +27,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better. (I don't have 
 ## To run Ayadn using the menu system:
 
 1. It's best if the Terminal window is made fullscreen and with a fairly small font size.
-2. Type `$ mux ayadn` to start the wonder off.
+2. Type `$ mux ayadn` to start the wonder off. (Linux novices: don't type the `$` - it's the end of the 'prompt'.)
 
 (It's a shortened form of the Tmuxinator command to open the `ayadn.yml` layout from the `~/.tmuxinator` folder.)
 
