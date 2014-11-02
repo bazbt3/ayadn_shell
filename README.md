@@ -70,6 +70,6 @@ AYADN MENU
 1. 'next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
 2. 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
 
-### Disclaimer:
+## Disclaimer:
 
 It might appear as if I know what I'm doing. Maybe yes, maybe no.
