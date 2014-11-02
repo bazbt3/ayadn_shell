@@ -65,8 +65,8 @@ AYADN MENU
 0 - Exit session
 ```
 
-* 'next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
-* 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
+* '9 - next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
+* '0 - Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
 
 ## Resources:
 
