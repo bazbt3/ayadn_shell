@@ -19,7 +19,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 ## Next steps:
 
 1. Copy the `ayadn.yml` file contents from here into a new `~/.tmuxinator/ayadn.yml` file.
-2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed.
+2. Copy the `ayadn_shell.sh` from here into a new `~/Documents/ayadn_shell.sh` - noting that it must be able to be executed (see the file's properties and change permissions to 'allow executing file as program'.)
 3. If you haven't previously used Ayadn, type `ayadn help authorize` to see what's necessary to authorise the app to authenticate and interact with the App.net servers.
 
 **Important** - `~/Documents` is used throughout the 2 files above simply because I'm very new to Linux, consequently have few *actual* documents on my test system. There will be a more elegant method but I'd rather get things moving before making things pretty.
