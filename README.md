@@ -1,6 +1,6 @@
 **This is NOT a clone of Ayadn.**
 
-I'm messing about with stuff *related* to Ayadn - the App.net command line client. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
+I'm messing about with stuff *related* to Ayadn - the App.net command line client by @ericdke. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
 # A Linux Terminal window command line menu for Ayadn:
 
