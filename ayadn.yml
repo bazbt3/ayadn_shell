@@ -1,0 +1,36 @@
+# File stored as:
+# ~/.tmuxinator/ayadn.yml
+# And called with:
+# $ mux ayadn
+
+name: ayadn
+root: ~/
+
+windows:
+  - Main:
+      layout: tiled
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - ayadn messages_unread -z
+        - ayadn mentions @bazbt3
+        - ayadn interactions
+  - Mentions:
+      layout: main-vertical
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - ayadn mentions bazbt3
+  - Messages:
+      layout: main-vertical
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - ayadn messages_unread -z
+  - Timeline:
+      layout: main-vertical
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - ayadn timeline -s
+  - Multipurpose:
+      layout: main-vertical
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - clear && echo "" && echo "To shift focus to this pane, press [ctrl-b] [right-cursor]" && echo ""
