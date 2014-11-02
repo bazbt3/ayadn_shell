@@ -26,15 +26,15 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better. (I don't have 
 
 ## To run Ayadn using the menu system:
 
-1. It's best if the Terminal window is made fullscreen and with a fairly small font size.
-2. Type `$ mux ayadn` to start the wonder off. (Linux novices: don't type the `$` - it's the end of the 'prompt'.)
+* It's best if the Terminal window is made fullscreen and with a fairly small font size.
+* Type `$ mux ayadn` to start the wonder off. (Linux novices: don't type the `$` - it's the end of the 'prompt'.)
 
 (It's a shortened form of the Tmuxinator command to open the `ayadn.yml` layout from the `~/.tmuxinator` folder.)
 
 ## Interpreting the windows:
 
-1. A green Tmux status bar at the bottom of the screen shows the window names and indicates which is currently active.
-2. The window panes are split variously dependent on function:
+* A green Tmux status bar at the bottom of the screen shows the window names and indicates which is currently active.
+* The window panes are split variously dependent on function:
 
    Top left at all times is the menu.
 
@@ -65,8 +65,12 @@ AYADN MENU
 0 - Exit session
 ```
 
-1. 'next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
-2. 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
+* 'next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
+* 'Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.
+
+## Resources:
+
+* You'll need help to get the best out of Tmux. A great source of information is the Ubuntu version of the [man pages](http://manpages.ubuntu.com/manpages/precise/en/man1/tmux.1.html) - better-suited to my reading style than the [official man pages.](http://www.openbsd.org/cgi-bin/man.cgi/OpenBSD-current/man1/tmux.1?query=tmux&sec=1)
 
 ## Disclaimer:
 
