@@ -1,12 +1,10 @@
-**This is NOT a clone of Ayadn.**
-
-I'm messing about with stuff *related* to Ayadn - the App.net command line client by @ericdke. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
-
 # A Linux Terminal window command line menu for Ayadn:
 
-Treat as very alpha. Actually, treat it as a bit rubbish. Better.
+Treat as very alpha. Actually, treat it as a bit rubbish. Better. (I don't have a Mac but it *may* work on one.)
 
-(I don't have a Mac but it *may* work on one.)
+![](http://bt3.com/images/f/fc/Ayadn_shell.png)
+
+**This is NOT a clone of Ayadn.** I'm messing about with stuff *related* to Ayadn - the App.net command line client by @ericdke. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
 ## Prerequisites:
 
