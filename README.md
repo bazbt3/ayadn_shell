@@ -7,12 +7,18 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better. (I don't have 
 **This is NOT a clone of Ayadn.** I'm messing about with stuff *related* to Ayadn - the App.net command line client by @ericdke. That's all. If you want see the thing itself, go to the excellent https://github.com/ericdke/na pages. If you want to read about *my* stuff, read on!
 
 ## Prerequisites:
+(Where not already installed.)
 
 1. Linux (in my case, Ubuntu 14.04 LTS),
-2. Ruby and Rubygems (in my case installed using [RBENV](http://rbenv.org/)),
-3. Install Tmux - http://tmux.sourceforge.net/ - and the things it depends on - [libevent](http://www.monkey.org/~provos/libevent/) and [ncurses](http://invisible-island.net/ncurses/),
-4. Install [Tmuxinator](https://github.com/tmuxinator/tmuxinator) - `gem install tmuxinator`,
-5. Install [Ayadn](https://github.com/ericdke/na) - `gem install ayadn`.
+2. cURL (in response to RVM's failure-to-install),
+3. Ruby & Rubygems (in my case installed using [RVM](http://rvm.io/rvm/install)),
+4. [libevent](http://www.monkey.org/~provos/libevent/),
+5. [ncurses](http://invisible-island.net/ncurses/),
+6. Tmux - http://tmux.sourceforge.net/ (the preceding 2 are necessary for this to work),
+7. [Tmuxinator](https://github.com/tmuxinator/tmuxinator) - `gem install tmuxinator`,
+8. [Ayadn](https://github.com/ericdke/na) - `gem install ayadn`.
+
+Some of the steps above were undertaken as a direct result of reading the messages following failures-to-install - and actioned at the command line. Apologies for the sketchiness of these instructions.
 
 ## Next steps:
 
