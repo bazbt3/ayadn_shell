@@ -11,14 +11,14 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better. (I don't have 
 
 1. Linux (in my case, Ubuntu 14.04 LTS),
 2. cURL (in response to RVM's failure-to-install),
-3. Ruby & Rubygems (in my case installed using [RVM](http://rvm.io/rvm/install)),
+3. Ruby & Rubygems (in my case installed using [RBENV](http://rbenv.org/)) after RVM failed to allow Ayadn to run (see the Disclaimer section below.)
 4. [libevent](http://www.monkey.org/~provos/libevent/),
 5. [ncurses](http://invisible-island.net/ncurses/),
 6. Tmux - http://tmux.sourceforge.net/ (the preceding 2 are necessary for this to work),
 7. [Tmuxinator](https://github.com/tmuxinator/tmuxinator) - `gem install tmuxinator`,
 8. [Ayadn](https://github.com/ericdke/na) - `gem install ayadn`.
 
-Some of the steps above were undertaken as a direct result of reading the messages following failures-to-install - and actioned at the command line. Apologies for the sketchiness of these instructions.
+Some of the steps above were undertaken as a direct result of reading the messages following failures-to-install - and actioned at the command line. Apologies for the sketchiness of these instructions, @ericdke's help installing Ayadn was invaluable for this Linux novice.
 
 ## Next steps:
 
@@ -80,4 +80,4 @@ AYADN MENU
 
 ## Disclaimer:
 
-It might appear as if I know what I'm doing. Maybe yes, maybe no.
+It might appear as if I know what I'm doing. Maybe yes, maybe no. (I blogged about the first couple of sessions [trying to install Ayadn.](http://bazbt3.re-app.net/2014/10/23/command-line/))
