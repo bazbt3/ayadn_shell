@@ -13,4 +13,4 @@ Please take a look at **[my Wiki.](https://github.com/bazbt3/ayadn_shell/wiki)**
 ## Disclaimers
 
 * It might appear as if I know what I'm doing. Maybe yes, maybe no. (I blogged about the first couple of sessions [trying to install Ayadn.](http://bazbt3.re-app.net/2014/10/23/command-line/))
-* I don't have a Mac but it *may* work on one.
+* I don't have a Mac thus cannot test on one - however a Mac user *has* got Ayadn_shell to work.
