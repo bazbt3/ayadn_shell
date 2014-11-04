@@ -1,3 +1,4 @@
+#!/bin/bash
 # ~/Documents/ayadn_shell.sh
 # ( Adapted from: http://code.activestate.com/recipes/577437-basic-linux-menu/ )
 
