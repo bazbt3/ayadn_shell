@@ -6,7 +6,7 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 ## Want to know more or try this out?
 
-Please take a look at **[my Wiki.](https://github.com/bazbt3/ayadn_shell/wiki)**
+Please take a look at **[the documentation.](https://github.com/bazbt3/ayadn_shell/docs/00-index.md)**
 
 ![](http://bt3.com/images/f/fc/Ayadn_shell.png)
 
