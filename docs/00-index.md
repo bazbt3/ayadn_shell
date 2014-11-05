@@ -15,7 +15,7 @@ The best thing about the ayadn_shell menu system is this: There's nothing to sto
 * [Install](/docs/10-install.md)   
   How to install the files and a first run.
 
-* [Usage](/docs/20-usage)   
+* [Usage](/docs/20-usage.md)   
   How to use this Terminal window command line menu.
 
 * [Technical](/docs/30-technical.md)   
