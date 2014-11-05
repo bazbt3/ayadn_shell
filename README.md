@@ -8,6 +8,8 @@ Treat as very alpha. Actually, treat it as a bit rubbish. Better.
 
 Please take a look at **[the documentation.](/docs/00-index.md)**
 
+## Gratuitous screenshot:
+
 ![](http://bt3.com/images/f/fc/Ayadn_shell.png)
 
 ## Disclaimers
