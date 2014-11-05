@@ -12,14 +12,14 @@ The best thing about the ayadn_shell menu system is this: There's nothing to sto
 
 ## Documentation
 
-* [Install](https://github.com/bazbt3/ayadn_shell/docs/10-install.md)   
+* [Install](/docs/10-install.md)   
   How to install the files and a first run.
 
-* [Usage](https://github.com/bazbt3/ayadn_shell/docs/20-usage)   
+* [Usage](/docs/20-usage)   
   How to use this Terminal window command line menu.
 
-* [Technical](https://github.com/bazbt3/ayadn_shell/docs/30-technical.md)   
+* [Technical](/docs/30-technical.md)   
   A brief primer, because you might appreciate knowing what's going on behind the scenes, you little tinkerer!
 
-* [Roadmap](https://github.com/bazbt3/ayadn_shell/docs/90-roadmap.md)   
+* [Roadmap](/docs/90-roadmap.md)   
   What's done, what's next?
