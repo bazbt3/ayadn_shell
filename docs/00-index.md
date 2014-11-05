@@ -1,4 +1,4 @@
-# The ayadn_shell Wiki
+# The ayadn_shell Documentation
 
 ## What this is:
 
