@@ -7,9 +7,12 @@
 # 2. An understanding that I'm new to Linux - I'm pretty sure this code won't break anything but be careful if you wish to modify it.
 # 3. An understanding that, because I'm new to Linux I've created about 13 documents thus far. All in ~/Documents - easy.
 
+# IMPORTANT - this file lets the user refresh Tmux but fails to exit correctly.
+# See the commented lines below.
+
 clear
-choice=
-until [ "$choice" = "0" ];
+CHOICE=
+until [ "$CHOICE" = "0" ];
   do
     echo ""
     echo "AYADN MENU"
@@ -20,49 +23,51 @@ until [ "$choice" = "0" ];
     echo "4 - ayadn convo [post number]"
     echo "5 - ayadn repost [post number]"
     echo ""
-    echo "9 - next window"
+    echo "8 - Refresh all"
+    echo "9 - Next window"
     echo ""
     echo "0 - Exit session"
     echo ""
     echo -n "Enter Selection:"
-    read choice
+    read CHOICE
     echo ""
-    case $choice
+    case $CHOICE
       in
         1 ) clear
             echo "Compose a multiline post:"
-            echo "-------------------------"
+            echo ""
             ayadn write;;
         2 ) clear
             echo "Compose a reply:"
-            echo "-------------"
+            echo ""
             echo "Reply [post number]?"
             read post
             ayadn reply $post;;
         3 ) clear
             echo "Compose a PM:"
-            echo "-------------"
+            echo ""
             echo "PM [channel number/alias?]"
             read channel
             ayadn pm $channel;;
         4 ) clear
             echo "Display a conversation:"
-            echo "-----------------------"
+            echo ""
             echo "Conversation [post number]?"
             read post
             ayadn convo $post
             read -p "Press [Enter] to return to menu.";;
         5 ) clear
             echo "Repost:"
-            echo "-----------------------"
+            echo ""
             echo "Post [post]?"
             read post
             ayadn repost $post;;
+        8 ) export REFRESH=1
+            tmux kill-session;;
         9 ) clear
             tmux next-window;;
-        0 ) tmux kill-session
-            exit;;
-        * ) echo "Please enter 1,2,3,4,9 or 0."
+        0 ) export REFRESH=0
+            tmux kill-server;;
+        * ) echo "Please enter 1,2,3,4,5,8,9 or 0."
      esac
-     echo ""
   done
