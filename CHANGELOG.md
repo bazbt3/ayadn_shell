@@ -1,3 +1,6 @@
+# Version 0.3 - 2014-11-08
+* Added the ability to refresh without exiting and restarting. Unfortunately my lack of code mastery means the script fails to exit without a strategically-timed [ctrl-C].
+
 # Version 0.2 - 2014-11-04
 * Hopefully increased the likelihood that the menu will show up for work - by adding `#!/bin/bash` at line 1 of `ayadn_shell.sh`.
 * If the menu still fails it might be useful to know that I currently run all (Ubuntu) Terminal window profiles with 'Run command as a login shell' active.
