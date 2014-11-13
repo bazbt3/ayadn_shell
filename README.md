@@ -1,12 +1,18 @@
-# This branch adds a refresh option to ayadn_shell
+# This parallel 0.3 branch adds a refresh option to ayadn_shell
 
-## But doesn't allow the shell to exit cleanly.
+## (But doesn't allow the shell to exit cleanly!)
 
-First steps for those updating:
+### First steps for those updating:
 
-1. Create a new `ayadn_run.sh` file, change its permissions to allow executing as a program.
-2. Overwrite `ayadn_shell.sh` with the new one in this branch.
-3. Run it using `$ ~/Documents/ayadn_run.sh` (if that's where you placed the 2 scripts.)
+1. Create a new `ayadn_run.sh` file with contents as this branch. Change its permissions to allow executing as a program.
+2. Overwrite the contents of `ayadn_shell.sh` with the new one in this branch.
+3. Run using `$ ~/Documents/ayadn_run.sh` (if `~/Documents` is where you placed the 2 scripts.)
+
+### How to exit:
+
+1. To exit to the command prompt, type `0 [enter]` (and an immediate `ctrl-C` to terminate the running shell script.)
+2. To kill the Tmux window type either `$ tmux kill-session` or `$ tmux kill-server` (a bit more aggressive.)   
+  (Linux newcomers, omit the `$`.)
 
 ## No documentation updates - it's an alpha work-in-progress!
 
