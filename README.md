@@ -1,6 +1,4 @@
-# Superseded by version 0.3.
-
-## A Linux Terminal window command line menu for Ayadn
+# A Linux Terminal window command line menu for Ayadn
 
 A rudimentary menu system for [Ayadn](https://github.com/ericdke/na), the App.net command line client by [@ericdke](https://github.com/ericdke). My stuff is mainly intended to showcase Ayadn and provide a gentle introduction to Tmux and Tmuxinator.
 
