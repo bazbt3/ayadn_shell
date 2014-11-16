@@ -1,7 +1,10 @@
 ## To run Ayadn using the menu system:
 
-1. Open a Terminal window - best made fullscreen and with a fairly small font size.
-2. Type `$ mux ayadn` to start the wonder off. (Linux novices: don't type the `$` - it's the end of the 'prompt'.)
+1. Open a Terminal window - best made fullscreen and with a fairly small font size.   
+   (Otherwise the display won't be created to match my 'vision.')
+2. Type `$ cd ~/Documents`
+3. Type `$ ./ayadn_run.sh` to start the wonder off.   
+  (Linux novices: don't type the `$` - it's the end of the 'prompt'.)
 
 ## Interpreting the windows:
 
@@ -25,6 +28,9 @@ A green status bar at the bottom of the screen shows the window names and indica
 * Timeline:   
   Right = auto-scrolling timeline.
 
+* Channels:   
+  Right = channels.
+
 * Multipurpose:   
   Right = a clear command line to allow the user to use the myriad of Ayadn commands not catered for in the menu.   
   (Type `ayadn` for a complete list.)
@@ -35,16 +41,19 @@ Finally! The menu is pretty simple:
 
 ```
 AYADN MENU
+
 1 - ayadn write
 2 - ayadn reply
 3 - ayadn pm [channel/alias]
-4 - ayadn convo [post number]
+4 - ayadn send [channel/alias]
 5 - ayadn repost [post number]
 
-9 - next window
+6 - ayadn convo [post number]
+7 - ayadn channels
 
-0 - Exit session
+r - Refresh all
+n - Next window
+x - Exit session
+
+Enter Selection:
 ```
-
-* '9 - next window' selects the next window from those available (see the Tmux status bar at the bottom of the screen.)
-* '0 - Exit session' provides no warning and closes all active panes and windows - but **only** within the current Terminal window.

@@ -1,7 +1,11 @@
-# File stored as:
 # ~/.tmuxinator/ayadn.yml
-# And called with:
-# $ mux ayadn
+
+# A Tmuxinator layout for the Ayadn App.net command line client
+
+# Prerequisites:
+# 1. Ruby and Tmux and Tmuxinator must be installed. It's non-trivial but brings its own, peculiar, rewards.
+# 2. An understanding that I'm new to Linux - I'm pretty sure this code won't break anything but be careful if you wish to modify it.
+# 3. An understanding that, because I'm new to Linux I've created about 13 documents thus far. All in ~/Documents - easy.
 
 name: ayadn
 root: ~/
@@ -29,6 +33,11 @@ windows:
       panes:
         - ~/Documents/ayadn_shell.sh
         - ayadn timeline -s
+  - Channels:
+      layout: main-vertical
+      panes:
+        - ~/Documents/ayadn_shell.sh
+        - ayadn channels
   - Multipurpose:
       layout: main-vertical
       panes:
