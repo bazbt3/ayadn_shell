@@ -4,17 +4,21 @@
 # IMPORTANT - this file lets the user refresh Tmux but fails to exit correctly.
 # See the commented lines below.
 
-clear
 RUNAYADN=1
+clear
 while [ "$RUNAYADN" = 1 ]
   do
     mux ayadn
-    RUNAYADN=1
-# RUNAYADN=1 substituted for the next line
-# I can't get the REFRESH variable to 'export' from ayadn_shell
-#    RUNAYADN=$REFRESH
+    if grep -q "Refresh" ~/Documents/ayadn_refresh.txt; then
+      RUNAYADN=1
+    fi
+    if grep -q "Exit" ~/Documents/ayadn_refresh.txt; then
+      RUNAYADN=0
+    fi
   done
-echo "Press a key"
-read KEYPRESS
-echo "Done."
+clear
+echo ""
+echo "Thankyou for using ayadn_shell."
+echo "Until the next time..."
+echo ""
 exit
