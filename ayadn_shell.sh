@@ -10,9 +10,12 @@
 # IMPORTANT - this file lets the user refresh Tmux but fails to exit correctly.
 # See the commented lines below.
 
+# Create ayadn_refresh.txt with default 'Refresh' contents.
+printf 'Refresh' > ~/Documents/ayadn_refresh.txt
+
 clear
 CHOICE=
-until [ "$CHOICE" = "0" ];
+until [ "$CHOICE" = "x" ];
   do
     echo ""
     echo "AYADN MENU"
@@ -20,13 +23,15 @@ until [ "$CHOICE" = "0" ];
     echo "1 - ayadn write"
     echo "2 - ayadn reply"
     echo "3 - ayadn pm [channel/alias]"
-    echo "4 - ayadn convo [post number]"
+    echo "4 - ayadn send [channel/alias]"
     echo "5 - ayadn repost [post number]"
     echo ""
-    echo "8 - Refresh all"
-    echo "9 - Next window"
+    echo "6 - ayadn convo [post number]"
+    echo "7 - ayadn channels"
     echo ""
-    echo "0 - Exit session"
+    echo "r - Refresh all"
+    echo "n - Next window"
+    echo "x - Exit session"
     echo ""
     echo -n "Enter Selection:"
     read CHOICE
@@ -50,24 +55,34 @@ until [ "$CHOICE" = "0" ];
             read channel
             ayadn pm $channel;;
         4 ) clear
-            echo "Display a conversation:"
+            echo "Send a message to a channel:"
             echo ""
-            echo "Conversation [post number]?"
-            read post
-            ayadn convo $post
-            read -p "Press [Enter] to return to menu.";;
+            echo "Send [channel/alias]"
+            read channel
+            ayadn send $channel;;
         5 ) clear
             echo "Repost:"
             echo ""
             echo "Post [post]?"
             read post
             ayadn repost $post;;
-        8 ) export REFRESH=1
-            tmux kill-session;;
-        9 ) clear
+        6 ) clear
+            echo "Display a conversation:"
+            echo ""
+            echo "Conversation [post number]?"
+            read post
+            ayadn convo $post
+            read -p "Press [Enter] to return to menu.";;
+        7 ) clear
+            echo "Display channels"
+            echo ""
+            ayadn channels;;
+        n ) clear
             tmux next-window;;
-        0 ) export REFRESH=0
+        r ) printf 'Refresh' > ~/Documents/ayadn_refresh.txt
+            tmux kill-session;;
+        x ) printf 'Exit' > ~/Documents/ayadn_refresh.txt
             tmux kill-server;;
-        * ) echo "Please enter 1,2,3,4,5,8,9 or 0."
+        * ) echo "Please enter 1,2,3,4,5,6,7,n,r or x. Thanks!"
      esac
   done
