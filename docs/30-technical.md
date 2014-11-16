@@ -8,9 +8,14 @@ Right now this repository is very much a work in progress. The majority of peopl
 
 I've added the full folder paths below simply to highlight my Linux inexperience. There will be more elegant ways to do all this, I've just not figured it out yet.
 
-The 'ayadn_shell' lives in a Terminal window modified by running `mux ayadn`. It opens Tmuxinator which configures itself using `~/.tmuxinator/ayadn.yml` (which must be placed within the folder stated.) It then opens Tmux and sets up 5 windows and a varying number of panes within each. There's a command line item run within each pane.
+The 'ayadn_shell' lives in a Terminal window modified by running `./ayadn_run.sh` in `~/Documents`. It opens Tmuxinator which configures itself using `~/.tmuxinator/ayadn.yml` (which must be placed within the folder stated.) It then opens Tmux and sets up 5 windows and a varying number of panes within each. There's a command line item run within each pane.
 
-`~/Documents/ayadn_shell.sh` - the menu system shell script - executes Ayadn or Tmux commands. Though the only common item across the windows is the menu system the code can be amended to execute any command line command. Now, `~/Documents` is probably not the best place to store this file but it works. If you want to run it from somewhere else, please update the links in `ayadn.yml` accordingly.
+`~Documents/ayadn_run.sh` - the 'outer' routine - starts everything off and evaluates the value returned from `ayadn_shell.sh` to determine whether to refresh the windows or to exit to the command prompt.   
+**Important:** the only method I could come up with to ensure the menu runs correctly was to have the script create an `ayadn_refresh.txt` in your `~/Documents` folder - which takes 2 values `Refresh` or `Exit`.
+
+`~/Documents/ayadn_shell.sh` - the menu system shell script - executes Ayadn or Tmux commands. Though the only common item across the windows is the menu system the code can be amended to execute any command line command.
+
+Now, `~/Documents` is probably not the best place to store these file but it all works. more-or-less. If you want to run it from somewhere else, please update the links throughout accordingly.
 
 ## Resources:
 
