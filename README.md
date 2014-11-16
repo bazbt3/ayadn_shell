@@ -10,7 +10,7 @@ Please take a look at **[the documentation.](/docs/00-index.md)**
 
 ## Gratuitous screenshot:
 
-![](http://bt3.com/images/1/15/Ayadn_shell_0_4.png)
+![](http://bt3.com/images/4/4e/Ayadn_shell_0_4_1.png)
 
 ## Disclaimers
 
