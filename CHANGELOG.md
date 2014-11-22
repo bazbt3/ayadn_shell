@@ -1,6 +1,6 @@
 # Version 0.4.1 - 2014-11-22
 * Updated the menu to fix a mistake, thus clarifying the difference between the arguments a PM and a 'send' message can take.   
-  PMs use @username only, whereas 'send' can be a PM *or* to a channel (e.g. Patter or private message channel) using either channel number *or* alias.
+  PMs use @username only, whereas 'send' is a message to a channel (e.g. Patter *or* a private message channel) using either channel number *or* alias.
 * My first minor revision - I'm closer to understanding revision numbering.
 
 # Version 0.4 - 2014-11-16
