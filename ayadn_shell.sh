@@ -23,7 +23,7 @@ until [ "$CHOICE" = "x" ];
     echo "1 - ayadn write"
     echo "2 - ayadn reply"
     echo "3 - ayadn pm [@username]"
-    echo "4 - ayadn send [@username/channel/alias]"
+    echo "4 - ayadn send [channel/alias]"
     echo "5 - ayadn repost [post number]"
     echo ""
     echo "6 - ayadn convo [post number]"
