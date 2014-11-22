@@ -22,7 +22,7 @@ until [ "$CHOICE" = "x" ];
     echo ""
     echo "1 - ayadn write"
     echo "2 - ayadn reply"
-    echo "3 - ayadn pm [channel/alias]"
+    echo "3 - ayadn pm [@username]"
     echo "4 - ayadn send [channel/alias]"
     echo "5 - ayadn repost [post number]"
     echo ""
@@ -51,13 +51,13 @@ until [ "$CHOICE" = "x" ];
         3 ) clear
             echo "Compose a PM:"
             echo ""
-            echo "PM [channel number/alias?]"
+            echo "PM [@username]"
             read channel
             ayadn pm $channel;;
         4 ) clear
             echo "Send a message to a channel:"
             echo ""
-            echo "Send [channel/alias]"
+            echo "Send [@username/channel/alias]"
             read channel
             ayadn send $channel;;
         5 ) clear
@@ -79,9 +79,11 @@ until [ "$CHOICE" = "x" ];
             ayadn channels;;
         n ) clear
             tmux next-window;;
-        r ) printf 'Refresh' > ~/Documents/ayadn_refresh.txt
+        r ) clear
+            printf 'Refresh' > ~/Documents/ayadn_refresh.txt
             tmux kill-session;;
-        x ) printf 'Exit' > ~/Documents/ayadn_refresh.txt
+        x ) clear
+            printf 'Exit' > ~/Documents/ayadn_refresh.txt
             tmux kill-server;;
         * ) echo "Please enter 1,2,3,4,5,6,7,n,r or x. Thanks!"
      esac
