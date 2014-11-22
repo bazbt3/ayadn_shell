@@ -45,7 +45,7 @@ AYADN MENU
 1 - ayadn write
 2 - ayadn reply
 3 - ayadn pm [@username]
-4 - ayadn send [@username/channel/alias]
+4 - ayadn send [channel/alias]
 5 - ayadn repost [post number]
 
 6 - ayadn convo [post number]
