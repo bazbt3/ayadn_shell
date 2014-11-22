@@ -57,7 +57,7 @@ until [ "$CHOICE" = "x" ];
         4 ) clear
             echo "Send a message to a channel:"
             echo ""
-            echo "Send [@username/channel/alias]"
+            echo "Send [channel/alias]"
             read channel
             ayadn send $channel;;
         5 ) clear
